@@ -2,5 +2,9 @@
     <li>Install BladeRF CLI: <a href="https://github.com/Nuand/bladeRF/wiki/Getting-started:-Mac-OSX">here</a></li>
     <li>Symbolic Link from /opt/local/bin/bladeRF-cli to somewhere more convenient </li>
     <li>Load FPGA  "bladeRF-cli -l path/to/fpga/file" YOU HAVE TO DO THIS EVERY TIME YOU START THE BLADE RF, WE SHOULD DO THE AUTOLOAD...<a href="https://github.com/Nuand/bladeRF/wiki/FPGA-Autoloading">autoload FPGA</a></li>
-    <li></li>
+    <li>download gnu-radio</li>
+    <li>build libosmo gr-osmosdr...i think i already have it </li>
+    <li>install yate by downloading svn repo...ran the autogen script to create the configuration script...so we can compile...sudo make install failed...had to manually adjust radio.cpp to look more like radio.cpp.diff <a href="http://yate.null.ro/mantis/view.php?id=401">radiocpp.diff</a> .....had to make symlinks</li>
 </ul>
+
+https://github.com/Nuand/bladeRF/wiki/Getting-Started%3A-Verifying-Basic-Device-Operation#Detecting_the_bladeRF
